@@ -2,12 +2,487 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8eb6f75-9140-4d10-ad08-0ee9e5aad38e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/token.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/async/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/async/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/async/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/async/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/async/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/async/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/async/dist/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/async/dist/async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/async/dist/async.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/async/dist/async.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/async/dist/async.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/async/dist/async.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/async/internal/eachOfLimit.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/async/internal/eachOfLimit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/async/nextTick.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/async/nextTick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/async/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/async/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/bluebird/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/bluebird/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/bluebird/js/browser/bluebird.core.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/bluebird/js/browser/bluebird.core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/bluebird/js/browser/bluebird.core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/bluebird/js/browser/bluebird.core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/bluebird/js/browser/bluebird.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/bluebird/js/browser/bluebird.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/bluebird/js/browser/bluebird.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/bluebird/js/browser/bluebird.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/bluebird/js/release/debuggability.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/bluebird/js/release/debuggability.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/bluebird/js/release/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/bluebird/js/release/promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/bluebird/js/release/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/bluebird/js/release/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/bluebird/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/kareem/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/kareem/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/kareem/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/kareem/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/kareem/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/kareem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/kareem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/kareem/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/kareem/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/kareem/test/examples.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/kareem/test/examples.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/kareem/test/misc.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/kareem/test/post.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/kareem/test/post.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/kareem/test/pre.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/kareem/test/pre.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/kareem/test/wrap.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/kareem/test/wrap.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/memory-pager/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/memory-pager/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/memory-pager/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/memory-pager/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/memory-pager/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/memory-pager/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/defaultAuthProviders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/gssapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/gssapi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/mongocr.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/mongocr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/plain.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/plain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/scram.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/scram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/sspi.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/sspi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/x509.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/auth/x509.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/apm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/command_result.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/command_result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/pool.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/pool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/connection/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/sdam/cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/sdam/monitoring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/sdam/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/sdam/server_description.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/sdam/server_selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/sdam/topology.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/sdam/topology_description.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/sessions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/tools/smoke_plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/tools/smoke_plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/mongos.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/mongos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/read_preference.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/read_preference.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/replset.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/replset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/replset_state.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/replset_state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/topologies/shared.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/transactions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/uri_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/wireprotocol/3_2_support.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/wireprotocol/3_2_support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/wireprotocol/compression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/wireprotocol/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/lib/wireprotocol/shared.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/browser_build/bson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/browser_build/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/binary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/bson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/db_ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/decimal128.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/double.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/float_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/int_32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/long.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/max_key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/min_key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/objectid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/parser/calculate_size.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/parser/deserializer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/parser/serializer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/parser/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/regexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/lib/bson/timestamp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongodb-core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/aggregation_cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/apm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/authenticate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/bulk/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/bulk/ordered.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/bulk/unordered.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/change_stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/collection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/command_cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/gridfs-stream/download.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/gridfs-stream/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/gridfs-stream/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/gridfs/chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/gridfs/grid_store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/mongo_client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/operations/admin_ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/operations/collection_ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/operations/cursor_ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/operations/db_ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/operations/mongo_client_ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/topologies/mongos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/topologies/replset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/topologies/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/topologies/topology_base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/url_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/browser_build/bson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/browser_build/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/binary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/bson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/db_ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/decimal128.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/double.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/float_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/int_32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/long.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/max_key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/min_key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/parser/calculate_size.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/parser/deserializer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/parser/serializer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/parser/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/regexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/lib/bson/timestamp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/bson/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/auth/defaultAuthProviders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/auth/gssapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/auth/mongocr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/auth/plain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/auth/scram.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/auth/sspi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/auth/x509.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/apm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/command_result.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/commands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/monitoring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/server_description.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/server_selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/topology.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/topology_description.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/sessions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/tools/smoke_plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/mongos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/read_preference.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/replset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/replset_state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/transactions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/uri_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/3_2_support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/compression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/node_modules/mongodb-core/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongodb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose-legacy-pluralize/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose-legacy-pluralize/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose-legacy-pluralize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose-legacy-pluralize/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/aggregate/aggregate.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/aggregate/aggregate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/aggregate/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/aggregate/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/doc-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/doc-methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/express/connection-sharing/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/express/connection-sharing/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/express/connection-sharing/modelA.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/express/connection-sharing/modelA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/express/connection-sharing/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/express/connection-sharing/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/geospatial/geoJSONSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/geospatial/geoJSONSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/geospatial/geoJSONexample.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/geospatial/geoJSONexample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/geospatial/geospatial.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/geospatial/geospatial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/geospatial/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/geospatial/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/globalschemas/gs_example.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/globalschemas/gs_example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/globalschemas/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/globalschemas/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/lean/lean.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/lean/lean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/lean/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/lean/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/mapreduce/mapreduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/mapreduce/mapreduce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/mapreduce/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/mapreduce/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-across-three-collections.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-across-three-collections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-of-existing-doc.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-of-existing-doc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-of-multiple-existing-docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-of-multiple-existing-docs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-plain-objects.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/population/population-plain-objects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/promises/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/promises/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/promises/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/promises/promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/querybuilder/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/querybuilder/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/querybuilder/querybuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/querybuilder/querybuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/replicasets/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/replicasets/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/replicasets/replica-sets.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/replicasets/replica-sets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/schema/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/schema/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/statics/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/statics/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/examples/statics/statics.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/examples/statics/statics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/aggregate.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/aggregate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/browserDocument.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/browserDocument.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/cast.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/cast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/cast/boolean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/cast/number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/cast/string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/connectionstate.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/connectionstate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/cursor/AggregationCursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/cursor/AggregationCursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/cursor/ChangeStream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/cursor/QueryCursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/cursor/QueryCursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/document_provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/document_provider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/driver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/browser/ReadPreference.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/browser/ReadPreference.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/browser/binary.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/browser/binary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/browser/decimal128.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/browser/decimal128.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/browser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/browser/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/browser/objectid.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/browser/objectid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/ReadPreference.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/ReadPreference.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/decimal128.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/decimal128.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/browserMissingSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/browserMissingSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/cast.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/cast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/disconnected.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/disconnected.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/divergentArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/divergentArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/missingSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/missingSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/mongooseError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/notFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/notFound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/objectExpected.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/objectExpected.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/objectParameter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/objectParameter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/overwriteModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/overwriteModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/parallelSave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/strict.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/strict.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/error/version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/cursor/eachAsync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/document/cleanModifiedSubpaths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/document/compile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/document/getEmbeddedDiscriminatorPath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/immediate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/model/applyHooks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/model/applyMethods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/model/applyStatics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/model/castBulkWrite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/model/discriminator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/populate/assignRawDocsToIdStructure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/populate/getSchemaTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/populate/getVirtual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/populate/leanPopulateMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/populate/validateRef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/projection/isDefiningProjection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/projection/isExclusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/projection/isInclusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/projection/isPathExcluded.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/projection/isPathSelectedInclusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/query/applyQueryMiddleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/query/castUpdate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/query/completeMany.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/query/getEmbeddedDiscriminatorPath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/query/hasDollarKeys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/query/selectPopulatedFields.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/schema/applyWriteConcern.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/schema/getIndexes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/schema/handleTimestampOption.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/schema/merge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/schema/setParentPointers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/setDefaultsOnInsert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/symbols.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/update/applyTimestampsToChildren.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/update/applyTimestampsToUpdate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/update/modifiedPaths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/helpers/updateValidators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/internal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/plugins/idGetter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/plugins/idGetter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/plugins/removeSubdocs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/plugins/saveSubdocs.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/plugins/saveSubdocs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/plugins/sharding.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/plugins/sharding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/plugins/validateBeforeSave.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/plugins/validateBeforeSave.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/promise_provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/promise_provider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/queryhelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/queryhelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/boolean.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/boolean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/buffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/buffer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/decimal128.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/decimal128.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/documentarray.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/documentarray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/embedded.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/embedded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/mixed.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/mixed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/number.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/number.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/objectid.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/objectid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/operators/bitwise.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/operators/bitwise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/operators/exists.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/operators/exists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/operators/geospatial.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/operators/geospatial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/operators/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/operators/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/operators/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/string.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schema/symbols.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schematype.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/schematype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/statemachine.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/statemachine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/buffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/buffer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/decimal128.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/decimal128.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/documentarray.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/documentarray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/embedded.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/embedded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/objectid.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/objectid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/subdocument.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/types/subdocument.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/lib/virtualtype.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/lib/virtualtype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/migrating_to_5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/aggregation_cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/aggregation_cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/apm.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/apm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/authenticate.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/authenticate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/ordered.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/ordered.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/change_stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/command_cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/command_cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/download.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/download.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/gridfs/chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/gridfs/chunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/gridfs/grid_store.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/gridfs/grid_store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/operations/admin_ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/operations/collection_ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/operations/cursor_ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/operations/db_ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/operations/mongo_client_ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/topologies/mongos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/topologies/replset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/topologies/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/topologies/topology_base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/url_parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/url_parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/node_modules/mongodb/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/static.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/static.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/tools/sharded.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/tools/sharded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mongoose/website.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mongoose/website.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/lib/collection/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/lib/collection/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/lib/collection/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/lib/collection/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/lib/collection/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/lib/collection/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/lib/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/lib/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/lib/mquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/lib/mquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/lib/permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/lib/permissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/test/collection/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/test/collection/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/test/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/test/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/mquery/test/utils.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/mquery/test/utils.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/code-points.mem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/generate-code-points.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/lib/code-points.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/lib/memory-code-points.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/saslprep/test/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/sparse-bitfield/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/sparse-bitfield/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/sparse-bitfield/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/sparse-bitfield/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/sparse-bitfield/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/sparse-bitfield/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/sparse-bitfield/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/account.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,35 +497,37 @@
     <session id="-1559440982">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="7" />
+          <entry key="js" value="9" />
           <entry key="json" value="1" />
           <entry key="png" value="1" />
-          <entry key="scss" value="2" />
-          <entry key="ts" value="7" />
+          <entry key="scss" value="3" />
+          <entry key="ts" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="7" />
-          <entry key="SCSS" value="2" />
-          <entry key="TypeScript" value="7" />
+          <entry key="JavaScript" value="9" />
+          <entry key="SCSS" value="3" />
+          <entry key="TypeScript" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="19" />
-          <entry key="js" value="958" />
+          <entry key="js" value="1901" />
           <entry key="scss" value="123" />
           <entry key="ts" value="73" />
         </counts>
@@ -58,7 +535,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="19" />
-          <entry key="JavaScript" value="958" />
+          <entry key="JavaScript" value="1901" />
           <entry key="SCSS" value="123" />
           <entry key="TypeScript" value="73" />
         </counts>
@@ -66,51 +543,27 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="1" />
+          <entry key="Angular2LanguageService" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app-routing.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/message/message.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/assets/img/logo.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/assets/img/image4.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="805">
+              <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -119,21 +572,47 @@
         <entry file="file://$PROJECT_DIR$/server/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/routes/account.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="139" column="23" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app.component.scss">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/styles.scss">
+        <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/models/token.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="184">
+              <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -162,18 +641,25 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>users</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/config.js" />
         <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/client/AngularAmazono/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/client/AngularAmazono/src/index.html" />
         <option value="$PROJECT_DIR$/client/AngularAmazono/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/client/AngularAmazono/src/styles.scss" />
+        <option value="$PROJECT_DIR$/server/config.js" />
+        <option value="$PROJECT_DIR$/server/models/token.js" />
+        <option value="$PROJECT_DIR$/server/routes/account.js" />
         <option value="$PROJECT_DIR$/server/models/user.js" />
       </list>
     </option>
@@ -191,93 +677,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/client/AngularAmazono/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/array-flatten/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/basic-auth/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/bluebird/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/bson/browser_build/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/bson/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/cookie-signature/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/encodeurl/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/etag/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/express/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/express/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/finalhandler/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/finalhandler/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/forwarded/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/ipaddr.js/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/kareem/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/lodash.get/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/memory-pager/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/merge-descriptors/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/browser_build/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongodb-core/node_modules/bson/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongodb-core/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongodb/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongoose-legacy-pluralize/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongoose/examples/aggregate/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongoose/examples/express/connection-sharing/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongoose/examples/geospatial/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongoose/examples/lean/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongoose/examples/mapreduce/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongoose/examples/promises/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongoose/examples/querybuilder/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongoose/examples/replicasets/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mongoose/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/morgan/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mpath/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mquery/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/mquery/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/on-headers/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/path-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/proxy-addr/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/regexp-clone/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/require_optional/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/require_optional/test/nestedTest/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/resolve-from/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/saslprep/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/send/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/send/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/serve-static/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/sliced/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/sparse-bitfield/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/unpipe/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/utils-merge/package.json" />
-      <path value="$PROJECT_DIR$/server/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/client/node_modules/@ng-bootstrap/ng-bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/client/node_modules/tslib/package.json" />
       <path value="$PROJECT_DIR$/server/package.json" />
     </packageJsonPaths>
   </component>
@@ -291,13 +692,46 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="amazono" type="b2602c69:ProjectViewProjectNode" />
               <item name="amazono" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazono" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazono" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazono" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazono" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="AngularAmazono" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazono" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazono" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="AngularAmazono" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazono" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazono" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="AngularAmazono" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazono" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazono" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="AngularAmazono" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="amazono" type="b2602c69:ProjectViewProjectNode" />
@@ -320,10 +754,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="index.html&#9;FILE&#9;file:///Users/lp-220/self/amazono/client/AngularAmazono/src/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file:///Users/lp-220/self/amazono/server/config.js&#10;index.html&#9;FILE&#9;file:///Users/lp-220/self/amazono/client/AngularAmazono/src/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -351,25 +786,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539603744853</updated>
-      <workItem from="1539603747922" duration="3612000" />
+      <workItem from="1539603747922" duration="4793000" />
+      <workItem from="1539665764080" duration="4818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3612000" />
+    <option name="totallyTimeSpent" value="9611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24543288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32913166" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -377,6 +808,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32913166" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,13 +825,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/AngularAmazono/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-773" />
@@ -416,26 +845,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -444,27 +854,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/rest-api.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/data.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="414">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -487,22 +879,74 @@
     <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/assets/img/image4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/user.js">
+    <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/rest-api.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/data.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/AngularAmazono/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/routes/account.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="139" column="23" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
